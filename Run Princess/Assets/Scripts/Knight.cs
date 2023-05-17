@@ -3,13 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections),typeof(Damageable))]
 public class Knight : MonoBehaviour
 {
     public float walkSpeed = 1.7f;
+    public float walkStopRate = 0.05f;
+    public DetectionZone attackZone;
 
     Rigidbody2D rb;
     TouchingDirections touchingDirections;
+    Animator animator;
+    Damageable damageable;
     public enum WalkableDirection { Right, Left};
 
     private WalkableDirection _walkDirection;
@@ -31,18 +35,46 @@ public class Knight : MonoBehaviour
             _walkDirection = value; }
     }
 
+    public bool _hasTarget = false;
+    public bool HasTarget { 
+        get { return _hasTarget; } 
+        private set { 
+            _hasTarget = value;
+            animator.SetBool(AnimationStrings.hasTarget, value);
+        } 
+    }
+
+    public bool CanMove
+    {
+        get {
+            return animator.GetBool(AnimationStrings.canMove);
+        }
+    }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         touchingDirections = GetComponent<TouchingDirections>();
+        animator = GetComponent<Animator>();
+        damageable = GetComponent<Damageable>();
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        HasTarget = attackZone.detectedColliders.Count > 0;
+    }
     private void FixedUpdate()
     {
         if (touchingDirections.IsGrounded && touchingDirections.IsOnWall) {
             FlipDirection();
         }
-        rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+        if (!damageable.LockVelocity) {
+            if (CanMove)
+                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+            else
+                rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+        }
     }
 
     private void FlipDirection()
@@ -60,15 +92,8 @@ public class Knight : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void OnHit(int damage, Vector2 knockback)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 }
