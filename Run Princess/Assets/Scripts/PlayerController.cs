@@ -7,9 +7,9 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float walkSpeed = 5f;
-    public float runSpeed = 8f;
-    public float airWalkSpeed = 3f;
-    public float jumpImpulse = 7.3f;
+    public float runSpeed = 7f;
+    public float airWalkSpeed = 3.7f;
+    public float jumpImpulse = 8f;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
