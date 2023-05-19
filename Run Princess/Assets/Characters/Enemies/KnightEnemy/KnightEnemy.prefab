@@ -217,8 +217,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d11c50a0677af7438cfad68d2376efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 1.7
-  walkStopRate: 0.6
+  walkAcceleration: 30
+  maxSpeed: 1.7
+  walkStopRate: 0.05
   attackZone: {fileID: 7973657601105965484}
   clifDetectionZone: {fileID: 7284534530852750258}
   _hasTarget: 0
@@ -422,7 +423,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8724010890365457301}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -440,13 +441,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.1395476, y: 0.13068028}
+    - - {x: -0.0995022, y: 0.12567471}
       - {x: -0.22409104, y: 0.11432433}
       - {x: -0.0908959, y: -0.111047685}
       - {x: -0.24060741, y: -0.38714296}
-      - {x: -0.043693483, y: -0.39559406}
+      - {x: 0.08643094, y: -0.39559406}
       - {x: 0.079536885, y: -0.10287387}
-      - {x: -0.04486897, y: 0.06545285}
+      - {x: -0.004823573, y: 0.12051528}
 --- !u!114 &8379280996385554849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,4 +461,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
-  knockback: {x: 5, y: 2}
+  knockback: {x: 2, y: 2}

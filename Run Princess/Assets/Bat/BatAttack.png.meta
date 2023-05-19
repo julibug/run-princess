@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c05373ae1ebd8554188d295ccf244658
+guid: b6a7181493c2b3e4c99b6018b70ba548
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,106 +117,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_4_0
+      name: BatAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba68a4fda23e5e74ab9f5430ea275cdd
+      internalID: 1581292049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAttack_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79cdbe08455b75e418cb98cf089250a7
-      internalID: -1251028406
+      spriteID: 9b0fdced4483eea409777dcea819287b
+      internalID: -235647213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_1
+      name: BatAttack_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 64
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91959ef7ea3fa4a4f9d575c6b9855fc2
-      internalID: -1803537109
+      spriteID: 121c4e0d6f0faf747a7aaf7154bbd756
+      internalID: -407039587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_2
+      name: BatAttack_3
       rect:
         serializedVersion: 2
-        x: 280
+        x: 96
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d469fa32982db6946bb0e8adb364e971
-      internalID: 825352933
+      spriteID: aa3cd56899e0718478b1b2f22cc12a81
+      internalID: 1465400410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_3
+      name: BatAttack_4
       rect:
         serializedVersion: 2
-        x: 426
+        x: 128
         y: 0
-        width: 70
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48290ed7d2a78814898d91cd5a17d538
-      internalID: 1989853724
+      spriteID: ed41d0ad98fa1714e9b68ad5c3d15b3a
+      internalID: -640657595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_4
+      name: BatAttack_5
       rect:
         serializedVersion: 2
-        x: 556
+        x: 161
         y: 0
-        width: 70
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f11057eaf5e6d124195a0ac73fa946a0
-      internalID: -1254820198
+      spriteID: 1fcefbb7b8b08bb4faebd323e9e7e42e
+      internalID: -978589757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatAttack_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5113728546243ef4788d61269ef6e560
+      internalID: 1389804311
       vertices: []
       indices: 
       edges: []
@@ -232,11 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack_4_0: -1251028406
-      Attack_4_1: -1803537109
-      Attack_4_2: 825352933
-      Attack_4_3: 1989853724
-      Attack_4_4: -1254820198
+      BatAttack_0: 1581292049
+      BatAttack_1: -235647213
+      BatAttack_2: -407039587
+      BatAttack_3: 1465400410
+      BatAttack_4: -640657595
+      BatAttack_5: -978589757
+      BatAttack_6: 1389804311
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

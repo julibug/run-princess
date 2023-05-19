@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c05373ae1ebd8554188d295ccf244658
+guid: 2b9f8901055b57b428487f05e75db5da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,106 +117,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_4_0
+      name: BatMovement_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d1ee7347f87504aabbfdcaec6298b9
+      internalID: 505072454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatMovement_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79cdbe08455b75e418cb98cf089250a7
-      internalID: -1251028406
+      spriteID: 917f59708fbd9594d81bacdf96cece79
+      internalID: -306499475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_1
+      name: BatMovement_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 64
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91959ef7ea3fa4a4f9d575c6b9855fc2
-      internalID: -1803537109
+      spriteID: 55c949bdca11e844196eb5c82d08166c
+      internalID: -1603847046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_2
+      name: BatMovement_3
       rect:
         serializedVersion: 2
-        x: 280
+        x: 96
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d469fa32982db6946bb0e8adb364e971
-      internalID: 825352933
+      spriteID: 419990794247ed84fa88ba03d6f123bd
+      internalID: -1539796178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_3
+      name: BatMovement_4
       rect:
         serializedVersion: 2
-        x: 426
+        x: 128
         y: 0
-        width: 70
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48290ed7d2a78814898d91cd5a17d538
-      internalID: 1989853724
+      spriteID: 210f216636868bb43873f8705b48c511
+      internalID: 989543883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_4
+      name: BatMovement_5
       rect:
         serializedVersion: 2
-        x: 556
+        x: 160
         y: 0
-        width: 70
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f11057eaf5e6d124195a0ac73fa946a0
-      internalID: -1254820198
+      spriteID: 04c49dd67fe889c40a6ef32991b117a5
+      internalID: -1076621066
       vertices: []
       indices: 
       edges: []
@@ -232,11 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack_4_0: -1251028406
-      Attack_4_1: -1803537109
-      Attack_4_2: 825352933
-      Attack_4_3: 1989853724
-      Attack_4_4: -1254820198
+      BatMovement_0: 505072454
+      BatMovement_1: -306499475
+      BatMovement_2: -1603847046
+      BatMovement_3: -1539796178
+      BatMovement_4: 989543883
+      BatMovement_5: -1076621066
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c05373ae1ebd8554188d295ccf244658
+guid: a015ee09e1120bb4c97e580cadef8872
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,106 +117,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_4_0
+      name: BatDamaged_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3d3f48ad630fc49bf9ce0d7e5add09
+      internalID: 837618282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatDamaged_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79cdbe08455b75e418cb98cf089250a7
-      internalID: -1251028406
+      spriteID: 7483f92901757fa4a925decf99a4d870
+      internalID: 651082120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_1
+      name: BatDamaged_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 64
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91959ef7ea3fa4a4f9d575c6b9855fc2
-      internalID: -1803537109
+      spriteID: 6a15ff24f4271764290741dabee6acaf
+      internalID: 831264216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_4_2
+      name: BatDamaged_3
       rect:
         serializedVersion: 2
-        x: 280
+        x: 96
         y: 0
-        width: 60
-        height: 67
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d469fa32982db6946bb0e8adb364e971
-      internalID: 825352933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_4_3
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 0
-        width: 70
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48290ed7d2a78814898d91cd5a17d538
-      internalID: 1989853724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack_4_4
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 0
-        width: 70
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f11057eaf5e6d124195a0ac73fa946a0
-      internalID: -1254820198
+      spriteID: fb3f5f96fc10134438ef39a4b4250946
+      internalID: 1675081416
       vertices: []
       indices: 
       edges: []
@@ -232,11 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack_4_0: -1251028406
-      Attack_4_1: -1803537109
-      Attack_4_2: 825352933
-      Attack_4_3: 1989853724
-      Attack_4_4: -1254820198
+      BatDamaged_0: 837618282
+      BatDamaged_1: 651082120
+      BatDamaged_2: 831264216
+      BatDamaged_3: 1675081416
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
