@@ -66,7 +66,7 @@ public class UIManager : MonoBehaviour
 
     public void ChangeScene()
     {
-        Application.LoadLevel(0);
+        Application.LoadLevel(1);
 
     }
 
@@ -75,13 +75,4 @@ public class UIManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void SwitchToLevel2()
-    {
-        Application.LoadLevel(1);
-    }
-
-    public void SwitchToLevel3()
-    {
-        Application.LoadLevel(3);
-    }
 }
