@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -61,5 +62,26 @@ public class UIManager : MonoBehaviour
                 SceneManager.LoadScene("QuitScene");
             #endif
         }
+    }
+
+    public void ChangeScene()
+    {
+        Application.LoadLevel(0);
+
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void SwitchToLevel2()
+    {
+        Application.LoadLevel(1);
+    }
+
+    public void SwitchToLevel3()
+    {
+        Application.LoadLevel(3);
     }
 }
