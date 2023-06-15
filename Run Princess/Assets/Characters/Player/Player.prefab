@@ -264,6 +264,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b1d04368-a384-4b31-b12e-e55894a66730
     m_ActionName: Player/Jump[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 97bd7c1b-718f-4638-8270-7d5796165665
+    m_ActionName: UI/Escape[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -283,8 +287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   runSpeed: 7
-  airWalkSpeed: 3.7
-  jumpImpulse: 8
+  airWalkSpeed: 5
+  jumpImpulse: 8.5
   _isMoving: 0
   _isRunning: 0
   _isFacingRight: 1
