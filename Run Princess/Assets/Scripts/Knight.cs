@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections),typeof(Damageable))]
 public class Knight : MonoBehaviour
 {
+    public ParticleSystem dust;
     public float walkAcceleration = 50f;
     public float maxSpeed = 1.7f;
     public float walkStopRate = 0.05f;
@@ -110,6 +111,7 @@ public class Knight : MonoBehaviour
 
     public void OnHit(int damage, Vector2 knockback)
     {
+        CreateDust();
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
@@ -118,5 +120,10 @@ public class Knight : MonoBehaviour
         if (touchingDirections.IsGrounded) {
             FlipDirection();
         }
+    }
+
+    public void CreateDust()
+    {
+        dust.Play();
     }
 }

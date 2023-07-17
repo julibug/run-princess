@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D),typeof(TouchingDirections),typeof(Damageable))]
 public class PlayerController : MonoBehaviour
 {
+    public ParticleSystem dust;
     public float walkSpeed = 5f;
     public float runSpeed = 7f;
     public float airWalkSpeed = 3.7f;
@@ -111,7 +112,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate() {
         if(!damageable.LockVelocity)
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
-        animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
+            animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
 
     public void OnMove(InputAction.CallbackContext context){
@@ -161,6 +162,11 @@ public class PlayerController : MonoBehaviour
 
     public void OnHit(int damage, Vector2 knockback)
     {
+        CreateDust();
         rb.velocity = new Vector2(knockback.x, rb.velocity.y +  knockback.y);
+    }
+
+    public void CreateDust() {
+        dust.Play();
     }
 }
