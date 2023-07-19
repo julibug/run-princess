@@ -36,7 +36,7 @@ public class Damageable : MonoBehaviour
             _health = value;
 
             //If health drops below 0 then player is dead
-            if(_health <= 0)
+            if (_health <= 0)
             {
                 IsAlive = false;
             }
