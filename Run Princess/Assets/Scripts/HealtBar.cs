@@ -39,7 +39,7 @@ public class HealtBar : MonoBehaviour
         playerDamageable.healthChanged.RemoveListener(OnPlayerHealthChanged);
     }
 
-    private float CalculateSliderPercentage(int currentHealth, int maxHealth)
+    private float CalculateSliderPercentage(float currentHealth, float maxHealth)
     {
         return currentHealth / maxHealth;
     }
