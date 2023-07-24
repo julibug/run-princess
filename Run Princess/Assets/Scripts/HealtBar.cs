@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealtBar : MonoBehaviour
 {
-    /*
     public Slider healthSlider;
     public TMP_Text healthBarText;
 
@@ -49,6 +49,5 @@ public class HealtBar : MonoBehaviour
         healthSlider.value = CalculateSliderPercentage(newHealth, maxHealth);
         healthBarText.text = newHealth + " / " + maxHealth;
     }
-    */
 
 }

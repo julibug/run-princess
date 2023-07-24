@@ -97326,6 +97326,17 @@ PrefabInstance:
       objectReference: {fileID: 318418075}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecbac0441b0a6b4a900252792375ba4, type: 3}
+--- !u!114 &1206049538 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6902969372419710555, guid: 13325df2208ee8541932aa83fb3965b6, type: 3}
+  m_PrefabInstance: {fileID: 2293818710335552772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236586890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1940013721033600505, guid: 5ef371470be6a6841baaaa9ddb0cf503, type: 3}
@@ -97931,6 +97942,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1524638985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7812534015860838514, guid: 13325df2208ee8541932aa83fb3965b6, type: 3}
+  m_PrefabInstance: {fileID: 2293818710335552772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1536082736
 GameObject:
   m_ObjectHideFlags: 0
@@ -98944,6 +98966,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2481925790265552515, guid: 13325df2208ee8541932aa83fb3965b6, type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1524638985}
+    - target: {fileID: 2481925790265552515, guid: 13325df2208ee8541932aa83fb3965b6, type: 3}
+      propertyPath: healthBarText
+      value: 
+      objectReference: {fileID: 1206049538}
     - target: {fileID: 2975926156198330228, guid: 13325df2208ee8541932aa83fb3965b6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
