@@ -11,13 +11,13 @@ public class GameOverScript : MonoBehaviour
     private void OnEnable()
     {
 
-        CharacterEvents.characterDamaged += CharacterTookDamage;
+       // CharacterEvents.characterDamaged += CharacterTookDamage;
     }
 
     private void OnDisable()
     {
 
-        CharacterEvents.characterDamaged -= CharacterTookDamage;
+      //  CharacterEvents.characterDamaged -= CharacterTookDamage;
     }
 
     private void Update()

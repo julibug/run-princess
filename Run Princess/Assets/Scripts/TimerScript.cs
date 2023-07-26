@@ -52,6 +52,6 @@ public class TimerScript : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 }
