@@ -45,7 +45,7 @@ public class TimerScript : MonoBehaviour
         timerText.text = "GameOver";
 
         // Czekamy przez 2 sekundy przed za³adowaniem sceny, aby gracz móg³ zobaczyæ napis "GameOver"
-        StartCoroutine(LoadLevelAfterDelay(2f));
+        StartCoroutine(LoadLevelAfterDelay(1f));
     }
 
     private IEnumerator LoadLevelAfterDelay(float delay)
