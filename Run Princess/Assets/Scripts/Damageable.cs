@@ -34,7 +34,7 @@ public class Damageable : MonoBehaviour
         }
         set
         {
-            _health = value;
+            _health = value < 0 ? 0 : value;
             healthChanged?.Invoke(_health, MaxHealth);
 
             //If health drops below 0 then player is dead
