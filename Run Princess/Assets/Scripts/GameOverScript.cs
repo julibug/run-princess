@@ -27,7 +27,7 @@ public class GameOverScript : MonoBehaviour
         {
 
             isGameOver = true;
-            StartCoroutine(LoadGameOverSceneWithDelay(5f)); 
+            StartCoroutine(LoadGameOverSceneWithDelay(3f)); 
         }
     }
 
