@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class HealtBar : MonoBehaviour
+public class HealthBar : MonoBehaviour
 {
     public Slider healthSlider;
     public TMP_Text healthBarText;
